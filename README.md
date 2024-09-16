@@ -1,8 +1,25 @@
-# Welcome to your Expo app 👋
+# React Native Hacker News App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a React Native app built using Expo, designed to display top and new stories from Hacker News. The app features a login/registration screen using a local SQLite database, navigation between different sections, and state management powered by Redux Toolkit. It also supports web rendering through React Native Web.
 
-## Get started
+## Features
+
+1. Top Stories and New Stories Sections: Users can navigate between top and new Hacker News stories using tab-based navigation.
+2. Login and Registration: A simple authentication system using SQLite to store user credentials locally.
+3. Responsive UI: The app leverages React Native Paper components to ensure a sleek and consistent design across both mobile and web.
+4. Splash Screen: Displays a welcome screen when the app is launched.
+5. Redux Toolkit: State management for managing story data.
+6. React Native Web: The app runs seamlessly on the web, powered by React Native Web.
+
+
+## Usage
+
+1. Splash Screen: The app starts with a "Welcome" splash screen.
+2. Login/Registration: Users can register or log in using a local SQLite database.
+3. Navigate Stories: Use the bottom tab navigation to switch between Top Stories and New Stories.
+4. About Me: Visit the About tab to learn more about the developer and their skills.
+
+## Installation
 
 1. Install dependencies
 
@@ -13,38 +30,5 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-    npx expo start
+    npm start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
